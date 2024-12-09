@@ -124,6 +124,11 @@ app.get('/login', (req, res) => {
 });
 
 
+app.get('/profil', (req, res) => {
+	res.render('profil.ejs',{});
+});
+
+
 
 // Mit listen() wird der Server angewiesen, auf den angegebenen Host und
 // Port zu lauschen.  
